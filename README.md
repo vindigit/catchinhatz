@@ -1,6 +1,6 @@
 # Morrow game
 
-Local PlayCanvas Engine + TypeScript project for a browser-first, third-person encounter in Bell Ward's Morrows. The current scene is the official PlayCanvas third-person controller starter. Its robot, trees, and blocks are placeholders used to verify the toolchain; the Morrow environment and combat are the next implementation work.
+Local PlayCanvas Engine + TypeScript project for a browser-first, third-person encounter in Bell Ward's Morrow Two. The [Morrow Two level brief](docs/morrow-two-level-brief.md) records the tower layout and first playable route. The current scene is the official PlayCanvas third-person controller starter. Its robot, trees, and blocks are placeholders used to verify the toolchain; the Morrow environment and combat are the next implementation work.
 
 ## Start the game
 

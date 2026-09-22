@@ -2,7 +2,7 @@
 
 This is the local PlayCanvas Engine + TypeScript game, built with Vite. Use the official PlayCanvas skills in `.agents/skills/` when they fit the task. The current third-person starter is a technical baseline; its robot and outdoor obstacles are placeholder content.
 
-Game direction: a browser-first, single-player, third-person apartment-building encounter in the Morrows area of Bell Ward. The visual target is PS2-era GTA-inspired urban realism: simple silhouettes, textured surfaces, fog, practical lighting, and lived-in detail. Keep modern-feeling controls and readable combat.
+Game direction: a browser-first, single-player, third-person apartment-building encounter centered on Morrow Two, the middle tower of the Morrows in Bell Ward. Use [docs/morrow-two-level-brief.md](docs/morrow-two-level-brief.md) and its linked reference images for the provisional site and floor layout. The visual target is PS2-era GTA-inspired urban realism: simple silhouettes, textured surfaces, fog, practical lighting, and lived-in detail. Keep modern-feeling controls and readable combat.
 
 The first playable encounter covers a hallway, apartment entrance, and stair landing. Build reusable systems for movement, shoulder camera, one weapon, enemy perception/navigation, damage, objective, retry/checkpoint, and completion. Verify changes in the running browser, including narrow spaces and stairs.
 
