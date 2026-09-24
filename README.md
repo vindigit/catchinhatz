@@ -44,3 +44,8 @@ Blender already has the Blender Lab MCP extension installed. For headless Codex 
 The official PlayCanvas skills are present in `.agents/skills/`; they are instructions for the coding agent, not runtime dependencies. Project direction and acceptance rules are in [AGENTS.md](AGENTS.md).
 
 No paid service generation is part of setup. Asset generation requires an approved asset brief and a check of the credits on the relevant account.
+
+
+## Production playtest
+
+[Play Morrow Two on GitHub Pages](https://vindigit.github.io/catchinhatz/)
