@@ -1,6 +1,6 @@
 # Morrow game
 
-Local PlayCanvas Engine + TypeScript project for a browser-first, third-person encounter in Bell Ward's Morrow Two. The [Morrow Two level brief](docs/morrow-two-level-brief.md) records the tower layout and first playable route. The current scene is the official PlayCanvas third-person controller starter. Its robot, trees, and blocks are placeholders used to verify the toolchain; the Morrow environment and combat are the next implementation work.
+Local PlayCanvas Engine + TypeScript project for a browser-first, single-player encounter in Bell Ward's Morrow Two. The first encounter runs from the south lobby through Stair A, Level 2 and Apartment 204, down Stair B and out the north service exit. Recover the ledger and clear four hostiles to finish. Failure offers a full encounter retry. See [implementation and playtest notes](docs/first-encounter.md) and the [spatial reference brief](docs/morrow-two-level-brief.md).
 
 ## Start the game
 
@@ -13,7 +13,9 @@ npm install
 npm run dev
 ```
 
-Open `http://localhost:5173`, click the scene, then use WASD, the mouse, and Space to test the starter controller.
+Open `http://localhost:5173` and select **Enter Morrow Two**. WASD moves, the mouse looks, left mouse/F fires, right mouse aims, R reloads, E interacts, Shift sprints, Q switches shoulders, M opens the route map, P switches visual quality, and Escape pauses. Arrow keys also look if pointer capture is unavailable. Enter resumes or retries. This build targets desktop keyboard/mouse browsers; touch and controller input are not implemented.
+
+For the production build, run `npm run build` followed by `npm run start -- --host 127.0.0.1`, then open `http://127.0.0.1:4173`. Software rendering automatically uses the performance visuals; hardware rendering uses the fuller lighting path. P lets you switch during play.
 
 ## Checks
 
@@ -25,7 +27,7 @@ npm run build
 npm run test:smoke
 ```
 
-Playwright Chromium is installed on this machine. The smoke test starts its own Vite server, opens the scene, checks that the canvas initializes, exercises an input, and records a screenshot. It establishes that the setup runs; it does not certify final gameplay.
+Playwright Chromium is installed on this machine. The browser suite starts or reuses Vite, checks real keyboard/menu interaction, and exercises route traversal, stairs, collisions, wall/door shot occlusion, combat, reload, failure/retry and extraction. Development builds expose a deterministic `window.__morrow` harness for focused tests; production builds omit it. Automated checks establish behavior, while player testing remains necessary to tune combat and camera feel.
 
 ## Asset workflow
 

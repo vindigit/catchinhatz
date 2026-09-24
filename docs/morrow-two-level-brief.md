@@ -16,7 +16,7 @@ Preserve the plan's useful room functions around a legible lobby: management and
 
 ## Residential floors
 
-Floors 2–12 use a repeatable double-loaded corridor with apartments, a central elevator core, and the two stairs at opposite sides. The drawing indicates roughly 10–12 units per typical floor, but its unit labels skip 11; treat the count and apartment labels as illustrative until we lay out a measured floor. Apartments should vary in occupancy and condition. The whole tower should feel lived in rather than uniformly abandoned.
+Floors 2–12 use a repeatable double-loaded corridor with apartments, a central elevator core, and the two stairs at opposite sides. The drawing indicates roughly 10–12 units per typical floor, but its unit labels skip 11; treat the count and apartment labels as illustrative until we lay out a measured floor. Apartments should vary in occupancy and condition. The whole tower should feel lived in by the crew rather than uniformly abandoned.
 
 ## First playable route
 

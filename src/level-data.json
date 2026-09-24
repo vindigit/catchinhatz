@@ -1,0 +1,595 @@
+{
+    "version": 1,
+    "units": "metres",
+    "north": [0, 0, -1],
+    "colliders": [
+        {
+            "name": "floor-south-court",
+            "min": [-24.0, -0.24, 16.0],
+            "max": [24.0, 0.0, 29.0]
+        },
+        {
+            "name": "floor-north-service-court",
+            "min": [-24.0, -0.24, -30.0],
+            "max": [24.0, 0.0, -16.0]
+        },
+        {
+            "name": "floor-west-side-path",
+            "min": [-24.0, -0.24, -16.0],
+            "max": [-15.0, 0.0, 16.0]
+        },
+        {
+            "name": "floor-east-side-path",
+            "min": [15.0, -0.24, -16.0],
+            "max": [24.0, 0.0, 16.0]
+        },
+        {
+            "name": "outer-side",
+            "min": [-15.18, 0.0, -16.0],
+            "max": [-14.82, 6.8, 16.0]
+        },
+        {
+            "name": "outer-side",
+            "min": [14.82, 0.0, -16.0],
+            "max": [15.18, 6.8, 16.0]
+        },
+        {
+            "name": "main-facade",
+            "min": [-15.0, 0.0, 15.82],
+            "max": [-1.3999999999999995, 6.8, 16.18]
+        },
+        {
+            "name": "main-facade",
+            "min": [1.3999999999999995, 0.0, 15.82],
+            "max": [15.0, 6.8, 16.18]
+        },
+        {
+            "name": "main-header",
+            "min": [-1.4, 2.6499999999999995, 15.82],
+            "max": [1.4, 6.8, 16.18]
+        },
+        {
+            "name": "service-facade",
+            "min": [-15.0, 0.0, -16.18],
+            "max": [-1.3999999999999995, 6.8, -15.82]
+        },
+        {
+            "name": "service-facade",
+            "min": [1.3999999999999995, 0.0, -16.18],
+            "max": [15.0, 6.8, -15.82]
+        },
+        {
+            "name": "service-header",
+            "min": [-1.4, 2.6499999999999995, -16.18],
+            "max": [1.4, 6.8, -15.82]
+        },
+        {
+            "name": "entry-bollard",
+            "min": [-2.51, 0.0, 18.19],
+            "max": [-2.29, 1.06, 18.41]
+        },
+        {
+            "name": "entry-bollard",
+            "min": [2.29, 0.0, 18.19],
+            "max": [2.51, 1.06, 18.41]
+        },
+        {
+            "name": "court-lamp-post",
+            "min": [-13.065, 0.0, 22.935],
+            "max": [-12.935, 5.4, 23.065]
+        },
+        {
+            "name": "court-lamp-post",
+            "min": [12.935, 0.0, 22.935],
+            "max": [13.065, 5.4, 23.065]
+        },
+        {
+            "name": "court-lamp-post",
+            "min": [-13.065, 0.0, -21.065],
+            "max": [-12.935, 5.4, -20.935]
+        },
+        {
+            "name": "court-lamp-post",
+            "min": [12.935, 0.0, -21.065],
+            "max": [13.065, 5.4, -20.935]
+        },
+        {
+            "name": "floor-lobby",
+            "min": [-14.8, -0.24, 5.1],
+            "max": [14.8, 0.0, 15.85]
+        },
+        {
+            "name": "floor-south-threshold",
+            "min": [-1.39, -0.24, 15.7],
+            "max": [1.39, 0.0, 16.2]
+        },
+        {
+            "name": "floor-service-hall-east",
+            "min": [8.150000000000002, -0.24, -13.0],
+            "max": [14.8, 0.0, 5.1000000000000005]
+        },
+        {
+            "name": "floor-service-hall-north",
+            "min": [-3.0, -0.24, -15.850000000000001],
+            "max": [14.8, 0.0, -9.0]
+        },
+        {
+            "name": "floor-rear-entry",
+            "min": [-2.9, -0.24, -16.2],
+            "max": [2.9, 0.0, -13.0]
+        },
+        {
+            "name": "floor-east-bottom-landing",
+            "min": [4.1, -0.24, 5.0],
+            "max": [8.2, 0.0, 7.0]
+        },
+        {
+            "name": "floor-west-bottom-landing",
+            "min": [-8.2, -0.24, 5.0],
+            "max": [-4.1, 0.0, 7.0]
+        },
+        {
+            "name": "lobby-ceiling",
+            "min": [-14.8, 3.19, 5.199999999999999],
+            "max": [14.8, 3.39, 15.7]
+        },
+        {
+            "name": "service-hall-ceiling",
+            "min": [8.15, 3.19, -9.5],
+            "max": [14.85, 3.39, 5.1]
+        },
+        {
+            "name": "rear-ceiling",
+            "min": [-3.0, 3.19, -15.825],
+            "max": [14.8, 3.39, -9.175]
+        },
+        {
+            "name": "elevator-core",
+            "min": [-3.0, 0.0, -5.0],
+            "max": [3.0, 6.8, 5.0]
+        },
+        {
+            "name": "stair-A-enclosure",
+            "min": [-8.075, 0.0, -5.05],
+            "max": [-7.825, 6.8, 5.05]
+        },
+        {
+            "name": "stair-A-enclosure",
+            "min": [-4.175, 0.0, -5.05],
+            "max": [-3.925, 6.8, 5.05]
+        },
+        {
+            "name": "stair-B-enclosure",
+            "min": [3.925, 0.0, -5.05],
+            "max": [4.175, 6.8, 5.05]
+        },
+        {
+            "name": "stair-B-enclosure",
+            "min": [7.825, 0.0, -5.05],
+            "max": [8.075, 6.8, 5.05]
+        },
+        {
+            "name": "management-divider",
+            "min": [-10.12, 0.0, 7.0],
+            "max": [-9.88, 3.4, 15.0]
+        },
+        {
+            "name": "package-divider",
+            "min": [9.88, 0.0, 7.0],
+            "max": [10.12, 3.4, 15.0]
+        },
+        {
+            "name": "management-front",
+            "min": [-14.8, 0.0, 6.89],
+            "max": [-10.0, 3.4, 7.11]
+        },
+        {
+            "name": "package-front",
+            "min": [10.0, 0.0, 6.89],
+            "max": [14.8, 3.4, 7.11]
+        },
+        {
+            "name": "ground-west-room-front",
+            "min": [-14.9, 0.0, 4.86],
+            "max": [-8.1, 3.4, 5.14]
+        },
+        {
+            "name": "laundry-inner",
+            "min": [7.930000000000001, 0.0, -10.0],
+            "max": [8.17, 3.4, 0.0]
+        },
+        {
+            "name": "laundry-rear",
+            "min": [13.25, 0.0, -9.13],
+            "max": [14.850000000000001, 3.4, -8.87]
+        },
+        {
+            "name": "rear-maintenance-front",
+            "min": [-3.1, 0.0, -9.12],
+            "max": [0.10000000000000009, 3.4, -8.88]
+        },
+        {
+            "name": "lobby-bench-seat",
+            "min": [3.0, 0.39499999999999996, 13.46],
+            "max": [6.0, 0.565, 14.14]
+        },
+        {
+            "name": "lobby-rubbish-bin",
+            "min": [7.425, 0.0, 14.225],
+            "max": [7.9750000000000005, 0.8, 14.775]
+        },
+        {
+            "name": "floor-level2-north-corridor",
+            "min": [-12.8, 3.1599999999999997, -9.0],
+            "max": [13.0, 3.4, -5.0]
+        },
+        {
+            "name": "level2-west-end",
+            "min": [-13.125, 3.3999999999999995, -9.125],
+            "max": [-12.875, 6.8, -4.875]
+        },
+        {
+            "name": "level2-east-end",
+            "min": [13.075, 3.3999999999999995, -9.125],
+            "max": [13.325, 6.8, -4.875]
+        },
+        {
+            "name": "corridor-south-left",
+            "min": [-13.0, 3.3999999999999995, -5.12],
+            "max": [-8.0, 6.8, -4.88]
+        },
+        {
+            "name": "corridor-south-center",
+            "min": [-4.0, 3.3999999999999995, -5.12],
+            "max": [4.0, 6.8, -4.88]
+        },
+        {
+            "name": "corridor-south-right",
+            "min": [7.949999999999999, 3.3999999999999995, -5.12],
+            "max": [13.25, 6.8, -4.88]
+        },
+        {
+            "name": "corridor-north-left",
+            "min": [-13.1, 3.3999999999999995, -9.125],
+            "max": [4.9, 6.8, -8.875]
+        },
+        {
+            "name": "corridor-north-right",
+            "min": [7.1000000000000005, 3.3999999999999995, -9.125],
+            "max": [13.2, 6.8, -8.875]
+        },
+        {
+            "name": "apartment204-header",
+            "min": [4.9, 5.98, -9.125],
+            "max": [7.1, 6.800000000000001, -8.875]
+        },
+        {
+            "name": "corridor-ceiling",
+            "min": [-13.25, 6.6000000000000005, -9.15],
+            "max": [13.25, 6.8, -4.85]
+        },
+        {
+            "name": "corridor-bag",
+            "min": [-11.91, 3.4000000000000004, -8.54],
+            "max": [-11.29, 4.0, -8.02]
+        },
+        {
+            "name": "corridor-parcel",
+            "min": [-11.075000000000001, 3.4000000000000004, -8.48],
+            "max": [-10.525, 3.96, -8.0]
+        },
+        {
+            "name": "floor-apartment204",
+            "min": [2.0, 3.1599999999999997, -15.850000000000001],
+            "max": [13.0, 3.4, -9.0]
+        },
+        {
+            "name": "apartment204-west",
+            "min": [1.88, 3.3999999999999995, -15.8],
+            "max": [2.12, 6.8, -9.0]
+        },
+        {
+            "name": "apartment204-east",
+            "min": [13.030000000000001, 3.3999999999999995, -15.8],
+            "max": [13.27, 6.8, -9.0]
+        },
+        {
+            "name": "apartment204-ceiling",
+            "min": [2.0, 6.590000000000001, -15.8],
+            "max": [13.0, 6.79, -9.0]
+        },
+        {
+            "name": "couch-base",
+            "min": [2.56, 3.41, -14.049999999999999],
+            "max": [3.8400000000000003, 4.05, -11.35]
+        },
+        {
+            "name": "coffee-table",
+            "min": [4.5, 3.815, -13.2],
+            "max": [6.1, 3.985, -12.2]
+        },
+        {
+            "name": "television-stand",
+            "min": [5.55, 3.4000000000000004, -15.31],
+            "max": [7.6499999999999995, 4.0, -14.69]
+        },
+        {
+            "name": "kitchen-counter",
+            "min": [10.8, 3.4, -15.25],
+            "max": [12.8, 4.4, -13.95]
+        },
+        {
+            "name": "fridge",
+            "min": [11.6, 3.3999999999999995, -10.549999999999999],
+            "max": [12.6, 5.3, -9.65]
+        },
+        {
+            "name": "ledger-desk",
+            "min": [9.1, 4.125, -12.425],
+            "max": [10.9, 4.275, -11.575]
+        },
+        {
+            "name": "service-dumpster",
+            "min": [-12.4, 0.020000000000000018, -22.75],
+            "max": [-9.6, 1.42, -21.25]
+        },
+        {
+            "name": "service-dumpster",
+            "min": [10.6, 0.020000000000000018, -24.75],
+            "max": [13.4, 1.42, -23.25]
+        },
+        {
+            "name": "encounter-boundary",
+            "min": [-24.15, 0.0, -30.0],
+            "max": [-23.85, 4.0, 30.0]
+        },
+        {
+            "name": "encounter-boundary",
+            "min": [23.85, 0.0, -30.0],
+            "max": [24.15, 4.0, 30.0]
+        },
+        {
+            "name": "encounter-boundary",
+            "min": [-24.0, 0.0, -30.15],
+            "max": [24.0, 4.0, -29.85]
+        },
+        {
+            "name": "encounter-boundary",
+            "min": [-24.0, 0.0, 28.85],
+            "max": [24.0, 4.0, 29.15]
+        }
+    ],
+    "surfaces": [
+        {
+            "name": "south-court",
+            "minX": -24,
+            "maxX": 24,
+            "minZ": 16,
+            "maxZ": 29,
+            "y": 0
+        },
+        {
+            "name": "north-service-court",
+            "minX": -24,
+            "maxX": 24,
+            "minZ": -30,
+            "maxZ": -16,
+            "y": 0
+        },
+        {
+            "name": "west-side-path",
+            "minX": -24,
+            "maxX": -15,
+            "minZ": -16,
+            "maxZ": 16,
+            "y": 0
+        },
+        {
+            "name": "east-side-path",
+            "minX": 15,
+            "maxX": 24,
+            "minZ": -16,
+            "maxZ": 16,
+            "y": 0
+        },
+        {
+            "name": "lobby",
+            "minX": -14.8,
+            "maxX": 14.8,
+            "minZ": 5.1,
+            "maxZ": 15.85,
+            "y": 0
+        },
+        {
+            "name": "south-threshold",
+            "minX": -1.39,
+            "maxX": 1.39,
+            "minZ": 15.7,
+            "maxZ": 16.2,
+            "y": 0
+        },
+        {
+            "name": "service-hall-east",
+            "minX": 8.15,
+            "maxX": 14.8,
+            "minZ": -13,
+            "maxZ": 5.1,
+            "y": 0
+        },
+        {
+            "name": "service-hall-north",
+            "minX": -3.0,
+            "maxX": 14.8,
+            "minZ": -15.85,
+            "maxZ": -9,
+            "y": 0
+        },
+        {
+            "name": "rear-entry",
+            "minX": -2.9,
+            "maxX": 2.9,
+            "minZ": -16.2,
+            "maxZ": -13,
+            "y": 0
+        },
+        {
+            "name": "east-bottom-landing",
+            "minX": 4.1,
+            "maxX": 8.2,
+            "minZ": 5,
+            "maxZ": 7,
+            "y": 0
+        },
+        {
+            "name": "west-bottom-landing",
+            "minX": -8.2,
+            "maxX": -4.1,
+            "minZ": 5,
+            "maxZ": 7,
+            "y": 0
+        },
+        {
+            "name": "stair-A",
+            "minX": -7.82,
+            "maxX": -4.18,
+            "minZ": -5,
+            "maxZ": 5,
+            "y": 3.4,
+            "rise": -3.4
+        },
+        {
+            "name": "stair-B",
+            "minX": 4.18,
+            "maxX": 7.82,
+            "minZ": -5,
+            "maxZ": 5,
+            "y": 3.4,
+            "rise": -3.4
+        },
+        {
+            "name": "level2-north-corridor",
+            "minX": -12.8,
+            "maxX": 13,
+            "minZ": -9,
+            "maxZ": -5,
+            "y": 3.4
+        },
+        {
+            "name": "apartment204",
+            "minX": 2,
+            "maxX": 13,
+            "minZ": -15.85,
+            "maxZ": -9,
+            "y": 3.4
+        }
+    ],
+    "lights": [
+        {
+            "name": "stair-A-light",
+            "position": [-6, 5.71, -1],
+            "color": [0.8, 0.85, 0.68],
+            "intensity": 0.55,
+            "range": 6
+        },
+        {
+            "name": "stair-B-light",
+            "position": [6, 5.71, -1],
+            "color": [0.8, 0.85, 0.68],
+            "intensity": 0.55,
+            "range": 6
+        },
+        {
+            "name": "ground-practical",
+            "position": [0, 2.88, 10],
+            "color": [0.8, 0.85, 0.68],
+            "intensity": 0.55,
+            "range": 6
+        },
+        {
+            "name": "ground-practical",
+            "position": [-6, 2.88, 8],
+            "color": [0.8, 0.85, 0.68],
+            "intensity": 0.55,
+            "range": 6
+        },
+        {
+            "name": "ground-practical",
+            "position": [6, 2.88, 8],
+            "color": [0.8, 0.85, 0.68],
+            "intensity": 0.55,
+            "range": 6
+        },
+        {
+            "name": "ground-practical",
+            "position": [10.8, 2.88, -2],
+            "color": [0.8, 0.85, 0.68],
+            "intensity": 0.55,
+            "range": 6
+        },
+        {
+            "name": "ground-practical",
+            "position": [5, 2.88, -12],
+            "color": [0.8, 0.85, 0.68],
+            "intensity": 0.55,
+            "range": 6
+        },
+        {
+            "name": "corridor-light",
+            "position": [-9, 6.31, -7],
+            "color": [0.8, 0.85, 0.68],
+            "intensity": 0.55,
+            "range": 6
+        },
+        {
+            "name": "corridor-light",
+            "position": [-1, 6.31, -7],
+            "color": [0.8, 0.85, 0.68],
+            "intensity": 0.55,
+            "range": 6
+        },
+        {
+            "name": "corridor-light",
+            "position": [8, 6.31, -7],
+            "color": [0.8, 0.85, 0.68],
+            "intensity": 0.55,
+            "range": 6
+        },
+        {
+            "name": "apartment-warm-practical",
+            "position": [7.8, 6.15, -12.1],
+            "color": [1, 0.76, 0.47],
+            "intensity": 1.0,
+            "range": 7
+        }
+    ],
+    "door": {
+        "id": "apartment204",
+        "center": [6, 4.61, -9],
+        "size": [2.16, 2.42, 0.16]
+    },
+    "spawn": [0, 0, 21],
+    "ledger": [10, 4.38, -12],
+    "exit": [0, 0, -20],
+    "markers": {
+        "lobby": [0, 0, 10],
+        "stairA": [-6, 0, 5.8],
+        "stairATop": [-6, 3.4, -6.8],
+        "corridor": [0, 3.4, -7],
+        "apartment": [6, 3.4, -10.5],
+        "stairB": [6, 3.4, -6.8],
+        "stairBBottom": [6, 0, 6],
+        "serviceTurn": [10.8, 0, 6],
+        "serviceHall": [10.8, 0, -12],
+        "rearDoor": [0, 0, -15]
+    },
+    "dimensions": {
+        "towerWidth": 30,
+        "towerDepth": 32,
+        "storeyHeight": 3.4,
+        "corridorWidth": 4,
+        "door204ClearWidth": 2.2,
+        "stairsClearWidth": 3.65,
+        "stairRun": 10,
+        "visualTreads": 24
+    }
+}
